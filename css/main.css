@@ -1,0 +1,64 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: #111111;
+}
+
+.container {
+  max-width: 60em !important;
+}
+
+.box {
+  background: #222222;
+}
+
+.header {
+  background: linear-gradient(321deg, #e53c5c, #321c42);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 14s ease infinite;
+  -moz-animation: gradient 14s ease infinite;
+  -o-animation: gradient 14s ease infinite;
+  animation: gradient 14s ease infinite;
+}
+
+.footer {
+  background: transparent !important;
+  padding: 2em !important;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px #222222 solid;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+.frame {
+  border-radius: 100%;
+  display: inline-block;
+  max-width: 10em;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+
+h1 {
+  font-size: 2em;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+.linky {
+  color: #fff !important;
+}
